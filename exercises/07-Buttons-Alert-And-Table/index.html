@@ -1,16 +1,66 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+			integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+			crossorigin="anonymous"
+		/>
+		<title>07 Buttons, Alert, Glyphicon and Table</title>
+	</head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <title>07 Buttons, Alert, Glyphicon and Table</title>
-</head>
-
-<body>
-
-</body>
-
+	<body>
+		<div class="row">
+			<div class="col-6">
+				<h1>It's hard to remember all the boostrap elements</h1>
+				<p>The rest seems easy because it was very well thought! Don't you agree?</p>
+				<a href="#" class="btn btn-success btn-sm active" role="button" aria-pressed="true">Primary link</a>
+				<a href="#" class="btn btn-danger btn-sm active" role="button" aria-pressed="true">Link</a>
+			</div>
+			<div class="col-6">
+				<div class="alert alert-danger" role="alert">
+					<i class="fas fa-exclamation"> If you don't agree some of this people may slap you in the face</i>
+				</div>
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th scope="col">#</th>
+							<th scope="col">First</th>
+							<th scope="col">Last</th>
+							<th scope="col">Handle</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">1</th>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>@mdo</td>
+						</tr>
+						<tr>
+							<th scope="row">2</th>
+							<td>Jacob</td>
+							<td>Thornton</td>
+							<td>@fat</td>
+						</tr>
+						<tr>
+							<th scope="row">3</th>
+							<td>Larry</td>
+							<td>the Bird</td>
+							<td>@twitter</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
 </html>
